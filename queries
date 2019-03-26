@@ -1,0 +1,33 @@
+// SQLQueries
+
+SELECT *
+FROM employee details;
+
+SELECT Holders Name
+FROM card details
+WHERE Bank = HDFC;
+
+
+
+SELECT firstName,lastName
+from billing ,customer details 
+Where customer details.Customer ID = billing.Customer Id
+ORDER BY Billing.Amount;
+
+
+SELECT *
+FROM employee details
+WHERE firstName = 'Mark' AND lastName = 'Clerk';
+
+SELECT * 
+FROM `billing` 
+WHERE Amount > 10000;
+
+SELECT * 
+FROM `billing` 
+WHERE Amount < 50000
+
+SELECT Customer ID
+FROM`rooms`
+ORDER BY Rate;
+
